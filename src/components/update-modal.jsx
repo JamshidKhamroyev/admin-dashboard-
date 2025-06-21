@@ -20,7 +20,7 @@ const UpdateModal = ({ isOpen, setIsOpen, form, setForm, onUpdate }) => {
     return (
         <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
             <div className="p-4 space-y-4">
-            <h3 className="text-xl font-semibold mb-4">Mahsulotni yangilash</h3>
+            <h3 className="text-xl font-semibold mb-4">Update product</h3>
 
             <div>
                 <label>Title</label>

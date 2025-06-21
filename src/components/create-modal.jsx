@@ -48,7 +48,7 @@ const CreateModal = ({ isOpen, setIsOpen, form, setForm, addProduct }) => {
   return (
     <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
       <div className="p-4 space-y-4">
-        <h3 className="text-xl font-semibold mb-4">Mahsulot qo'shish</h3>
+        <h3 className="text-xl font-semibold mb-4">Add new Product</h3>
 
         {/* Title */}
         <div>

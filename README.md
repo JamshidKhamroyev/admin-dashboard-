@@ -1,56 +1,57 @@
 # 🛍️ Admin Panel — Product Management Dashboard
 
-Bu loyiha React.js asosida yaratilgan zamonaviy, responsiv **Admin Panel** bo‘lib, mahsulotlarni boshqarish uchun mo‘ljallangan. Siz mahsulotlarni qo‘shish, o‘chirish, yangilash, hamda kategoriyalarga ko‘ra filtrlash imkoniyatiga egasiz. Interfeys jozibali animatsiyalar va faqat kerak bo‘lganida rasmlarni yuklash (lazy loading) bilan optimallashtirilgan.
+This project is a modern, responsive **Admin Panel** built with React.js for managing products. It allows you to add, delete, update products, and filter them by categories. The interface features attractive animations and optimized lazy loading for images.
 
 ---
 
-## ✨ Xususiyatlar
+## ✨ Features
 
-- ✅ Mahsulotlarni qo‘shish, o‘chirish va yangilash
-- 🔍 To‘rt xil kategoriya bo‘yicha mahsulotlarni filtrlash (Men's clothing, Women's clothing, Electronics, Jewelery)
-- ⚡ Scroll bo‘yicha animatsiyalar (`framer-motion` kutubxonasi yordamida)
-- 🖼️ Rasmlarni faqat kerak bo‘lganida yuklash (Lazy Loading)
-- 💾 Mahsulotlar ma'lumotlari `localStorage`da saqlanadi
-- 🧹 Foydalanuvchi saytni tark etganda `localStorage` avtomatik tozalanadi
-- 📱 To‘liq responsiv va zamonaviy dizayn
+- ✅ Add, delete, and update products
+- 🔍 Filter products by four categories (Men's clothing, Women's clothing, Electronics, Jewelry)
+- ⚡ Scroll-triggered animations using the `framer-motion` library
+- 🖼️ Lazy loading of images to improve performance
+- 💾 Product data is stored in `localStorage`
+- 🧹 Automatically clears `localStorage` when the user leaves the site
+- 📱 Fully responsive and modern design
 
 ---
 
-## 🚀 Texnologiyalar
+## 🚀 Technologies Used
 
 - React.js
 - Tailwind CSS
-- Framer Motion (animatsiyalar uchun)
-- Axios (API so‘rovlar uchun)
+- Framer Motion (for animations)
+- Axios (for API requests)
 - React Icons
-- React Toastify (bildirishnomalar uchun)
+- React Toastify (for notifications)
 
 ---
 
-## 📂 Loyihaning Tuzilishi
+## 📂 Project Structure
 
-
----
-
-## 🖼️ UI Prevyu
-
-| Kategoriya tanlash  | Mahsulot kartasi | Yangilash modal oynasi |
-|---------------------|------------------|-----------------------|
-| ![Category](https://via.placeholder.com/150x80) | ![Product](https://via.placeholder.com/150x150) | ![Modal](https://via.placeholder.com/150x100) |
+_(You can add your project folder/file structure here)_
 
 ---
 
-## 🧪 Loyihani Mahalliy Ishga Tushirish
+## 🖼️ UI Preview
+
+| Add Modal | Light Mode Home Page | Dark Mode Home Page |
+|-----------|---------------------|--------------------|
+| ![Add Modal](./public/modal.png) | ![Home Light](./public/home1.png) | ![Home Dark](./public/home2.png) |
+
+---
+
+## 🧪 Running the Project Locally
 
 ```bash
-# 1. Loyihani klonlash
+# 1. Clone the repository
 git clone https://github.com/your-username/admin-panel.git
 
-# 2. Loyihaga o'ting
+# 2. Navigate into the project directory
 cd admin-panel
 
-# 3. Bog'liqliklarni o'rnating
+# 3. Install dependencies
 npm install
 
-# 4. Ishga tushiring
+# 4. Start the development server
 npm run dev
