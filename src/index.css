@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+html{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #010112;
+}
+
+.dark_mode {
+    background-color: #010112;
+    color: white;
+}
